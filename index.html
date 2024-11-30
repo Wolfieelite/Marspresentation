@@ -6,8 +6,14 @@
     <title>Astro 30 talk (Martian)</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="title">Journey on Mars surface</h1>
+    <div class="grid grid-cols-2">
+      <h1 class="text-4xl text-center text-white col-span-full">Journey on Mars surface</h1>
+
+      <aside id="navigationContainer" class="px-5 text-white flex flex-col gap-y-10">
+        <div><button id="navbtn" class="cursor-pointer">Test btn</button></div>
+        <div><button id="navbtn" class="cursor-pointer">list item</button></div>
+        <div><button id="navbtn" class="cursor-pointer">more button</button></div>
+      </aside>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
